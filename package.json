@@ -1,0 +1,20 @@
+{
+  "name": "property-member-announcements",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/http_server.ts",
+    "provision": "tsx src/provision_property_channel.ts",
+    "test": "tsx --test src/property_announcement_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
